@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CardWorld</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
+</head>
+
+<body>
+  <header>CardWorld.shop <a href="index.html" style="color: white;">Home</a> <a href="support.html" style="color: white;">Customer support</a> </header>
+</header>
+  <br>
+  <h1>Deck Boxes</h1>
+  <div class="row" id="blue">
+    <div class="column">
+      <img src="accessories2.jpeg" width="400" height="400">
+    </div>
+  <div>
+    <h2>Safely store and transport your cards with deck boxes.</h2>
+    <h3>Contents:</h3>
+    <ul>
+      <li>Deck Box x 1</li>
+    </ul>
+    <table style="width:50%">
+      <tr>
+        <th>Brand</th>
+        <th>Colour</th>
+      </tr>
+      <tr>
+        <td>GameGenic</td>
+        <td>Red</td>
+      </tr>
+      <tr>
+        <td>Ultra Pro Tower</td>
+        <td>Black</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Purple</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Green</td>
+      </tr>  
+    </table>
+    <div class="row">
+      <div class="column">
+        <h4>Choose Brand</h4>
+        <select>
+          <option>GameGenic</option>
+          <option>Ultra Pro Tower</option>
+        </select>
+        <br>
+        <a href="checkout.html">Buy now!</a>
+      </div>
+      <div class="column">
+        <h4>Choose Colour</h4>
+        <select>
+          <option>Red</option>
+          <option>Black</option>
+          <option>Purple</option>
+          <option>Green</option>
+        </select>
+      </div>
+    </div>
+    <br>
+  </div>
+
+</body>
+
+</html>
